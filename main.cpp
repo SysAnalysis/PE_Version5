@@ -1,8 +1,10 @@
 #include <iostream>
 
 // Function to calculate the summation of two numbers
-double multiply(double a, double b) {
-    return a * b;
+
+double difference(double a, double b) {
+    return a - b;
+
 }
 
 
@@ -18,7 +20,10 @@ int main() {
     std::cin >> num2;
 
     // Perform operations and print results
-    std::cout << "Operation: " << multiply(num1, num2) << std::endl;
+
+
+    std::cout << "Operation: " << difference(num1, num2) << std::endl;
+
    
     return 0;
 }
