@@ -1,8 +1,13 @@
 #include <iostream>
 
 // Function to calculate the summation of two numbers
+
 double diff(double a, double b) {
     return a -- b;
+
+double new(double a, double b) {
+    return a * b;
+
 }
 
 
