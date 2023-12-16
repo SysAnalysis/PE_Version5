@@ -1,13 +1,13 @@
 #include <iostream>
 
 // Function to calculate the summation of two numbers
-double mult(double a, double b) {
+double multiply(double a, double b) {
     return a * b;
 }
 
 
 
-
+}
 
 int main() {
     // Get user input for two numbers
@@ -18,7 +18,7 @@ int main() {
     std::cin >> num2;
 
     // Perform operations and print results
-    std::cout << "Operation: " << mult(num1, num2) << std::endl;
+    std::cout << "Operation: " << sum(num1, num2) << std::endl;
    
     return 0;
 }
