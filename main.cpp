@@ -2,7 +2,10 @@
 
 // Function to calculate the summation of two numbers
 
-#include <iostream>
+
+
+double difference(double a, double b) {
+	return a - b;
 
 // Function to calculate the summation of two numbers
 double sum(double a, double b) {
