@@ -1,8 +1,8 @@
 #include <iostream>
 
 // Function to calculate the summation of two numbers
-double defrence(double a, double b) {
-    return a - b;
+double sum(double a, double b) {
+    return a + b;
 >>>>>>> dev
 }
 
